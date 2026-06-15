@@ -1,0 +1,68 @@
+site_name: MSU Robotics Club — TechLeap 2026
+site_description: Documentation for the NASA TechLeap Prize Robotically Manipulated Payload Challenge
+repo_url: https://github.com/MSSTATE-Robotics-Club-MSURC/readthedocs
+repo_name: MSSTATE-Robotics-Club-MSURC/readthedocs
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Dashboard: index.md
+  - Timeline: timeline.md
+  - People:
+      - Saugat Sapkota: people/saugat-sapkota.md
+      - Bikal Ghimire: people/bikal-ghimire.md
+      - Blake Stampley: people/blake-stampley.md
+      - Prashant Bhattarai: people/prashant-bhattarai.md
+      - Alaa Mohammad: people/alaa-mohammad.md
+      - Prabin Budhathoki: people/prabin-budhathoki.md
+      - Joshua McGee: people/joshua-mcgee.md
+      - Bibek Bhatta: people/bibek-bhatta.md
+      - Avimanyu Ghimire: people/avimanyu-ghimire.md
+  - Responsibilities:
+      - Sprint 1 (Jun 11-15):
+          - Meeting Setup: responsibilities/sprint-1-meeting-setup.md
+          - Governance & Tracking: responsibilities/sprint-1-governance.md
+          - Club Administration: responsibilities/sprint-1-club-administration.md
+          - Teams Setup: responsibilities/sprint-1-teams-setup.md
+          - Budget Modeling: responsibilities/sprint-1-budget-modeling.md
+          - Compliance Review: responsibilities/sprint-1-compliance-review.md
+          - Interclub Outreach: responsibilities/sprint-1-club-outreach.md
+          - Research Alignment: responsibilities/sprint-1-research-alignment.md
+          - Documentation Review: responsibilities/sprint-1-doc-review.md
+          - Club Email: responsibilities/sprint-1-club-email.md
+          - FFR Component Research: responsibilities/sprint-1-ffr-component-research.md
+          - Software Licenses: responsibilities/sprint-1-software-licenses.md
+  - Resources: resources.md
+  - Documents: Documents/index.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - tables
+  - attr_list
+  - md_in_html
